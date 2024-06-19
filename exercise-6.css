@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #272727;
+}
+
+nav {padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text
+    
+
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+.logo img{
+    width: 175px;
+    
+
+}
+
+li{
+    list-style: none;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.container{
+    /* background: #c2abab; */
+    display: flex;
+    margin: auto;
+    width: 100vw;
+    height: 80vh;
+}
+main section img{
+   padding-left: 200px;
+    margin: auto;
+
+}
+  
