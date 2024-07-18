@@ -1,28 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    background: #272727;
+  
+}
+body{
+    background: linear-gradient(to right,#00ff22,#00a6ff);
+
 }
 
-nav {padding: 25px;
+header {
+    font-family: 'Courier New', Courier, monospace;
+    /* background: #b49393; */
+    /* position: sticky; */
+    /* top: 0; */
+}
+
+
+nav {
+    padding: 17px 70px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    text
-    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font opacity:50%; */
+
 
 }
-nav ul{
+
+nav ul {
     display: flex;
     gap: 40px;
 }
-.logo img{
+
+.logo img {
     width: 175px;
-    
+
 
 }
 
-li{
+li {
     list-style: none;
     display: flex;
     /* justify-content: center; */
@@ -30,16 +48,102 @@ li{
     gap: 5px;
     cursor: pointer;
 }
-.container{
-    /* background: #c2abab; */
-    display: flex;
-    margin: auto;
-    width: 100vw;
-    height: 80vh;
-}
-main section img{
-   padding-left: 200px;
-    margin: auto;
 
+.container {
+    background: #222222;
+    display: flex;
+    margin: 2px;
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+
+.heading {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.heading div {
+    display: flex;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.heading div .img {
+    padding: 5px 21px;
+}
+
+.heading p {
+    font-family: sans-serif;
+    width: 52%;
+    text-align: center;
+    padding: 15px;
+}
+
+.second {
+    margin: auto;
+    max-width: 65vw;
+}
+
+.btn {
+    font-family: sans-serif;
+    background: #00b6d1;
+    padding: 13px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.green {
+    background: #5cb85c;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin: auto; */
+    gap: 20px;
+}
+
+.item {
+    /* padding: 35px; */
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.item-lang {
+    padding: 35px;
+}
+
+.download :nth-child(2) {
+    font-size: x-large;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 10px;
+}
+
+.download img {
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0px;
 }
   
